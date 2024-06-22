@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "56f2708f-e6aa-4b97-8a34-e15d8ff6695d")
+	(paper "A3")
+	(title_block
+		(title "Sensor Board")
+		(date "2024.06.22")
+		(rev "v0.1.0")
+		(company "Cristian Cristea")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
