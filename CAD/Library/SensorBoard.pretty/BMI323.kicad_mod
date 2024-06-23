@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "BMI323"
-		(at 0 1 0)
+		(at 0 2.35 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "cec1fecc-9b86-4bf1-b18e-33069171ac84")
@@ -129,7 +129,7 @@
 		(uuid "45c79494-3573-4e5f-ace8-e2edd80d34e9")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0 3.85 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "5eb95c4d-fb1b-494a-88c8-aa4b01e8b355")

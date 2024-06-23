@@ -2,6 +2,214 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
+	(symbol "BME630"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -6.096 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BME630"
+			(at 9.144 8.89 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SensorBoard:BME630"
+			(at 39.878 -12.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme680-ds001.pdf"
+			(at 59.182 -14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -6.35 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "BME630_0_0"
+			(pin power_out line
+				(at -2.54 -11.43 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input inverted
+				(at 15.24 -6.35 180)
+				(length 2.54)
+				(name "CSB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 1.27 180)
+				(length 2.54)
+				(name "SDI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 15.24 5.08 180)
+				(length 2.54)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -2.54 180)
+				(length 2.54)
+				(name "SDO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 10.16 270)
+				(length 2.54)
+				(name "VDDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 2.54 -11.43 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 10.16 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "BME630_1_1"
+			(rectangle
+				(start -6.985 7.62)
+				(end 12.7 -8.89)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+	)
 	(symbol "BMI323"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24,7 +232,7 @@
 			)
 		)
 		(property "Footprint" "SensorBoard:BMI323"
-			(at -6.35 6.35 0)
+			(at 18.034 -12.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33,7 +241,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi323-ds000.pdf"
-			(at -6.35 6.35 0)
+			(at 59.944 -14.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -160,7 +368,7 @@
 				)
 			)
 			(pin power_out line
-				(at -2.54 -10.16 90)
+				(at -2.54 -11.43 90)
 				(length 2.54)
 				(name "GNDIO"
 					(effects
@@ -178,7 +386,7 @@
 				)
 			)
 			(pin power_out line
-				(at 2.54 -10.16 90)
+				(at 2.54 -11.43 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -235,7 +443,7 @@
 		(symbol "BMI323_1_1"
 			(rectangle
 				(start -11.43 7.62)
-				(end 12.7 -7.62)
+				(end 12.7 -8.89)
 				(stroke
 					(width 0)
 					(type default)
