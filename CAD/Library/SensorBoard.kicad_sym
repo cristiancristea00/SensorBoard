@@ -51,7 +51,7 @@
 			)
 		)
 		(symbol "BME630_0_0"
-			(pin power_out line
+			(pin passive line
 				(at -2.54 -11.43 90)
 				(length 2.54)
 				(name "GND"
@@ -159,7 +159,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 2.54 -11.43 90)
 				(length 2.54)
 				(name "GND"
@@ -367,7 +367,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at -2.54 -11.43 90)
 				(length 2.54)
 				(name "GNDIO"
@@ -385,7 +385,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 2.54 -11.43 90)
 				(length 2.54)
 				(name "GND"

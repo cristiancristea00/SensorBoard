@@ -418,6 +418,10 @@
       {
         "netclass": "HSE",
         "pattern": "HSE*"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/SPI*"
       }
     ]
   },
