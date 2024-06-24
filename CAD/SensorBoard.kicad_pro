@@ -464,6 +464,10 @@
       {
         "netclass": "DEBUG",
         "pattern": "SWD*"
+      },
+      {
+        "netclass": "DEBUG",
+        "pattern": "/SWD*"
       }
     ]
   },
