@@ -272,7 +272,7 @@
         "microvia_drill": 0.1,
         "name": "DEBUG",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(175, 177, 176)",
+        "schematic_color": "rgb(102, 103, 102)",
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -290,6 +290,23 @@
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(109, 73, 61)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GPIO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(43, 184, 200)",
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -357,7 +374,7 @@
         "microvia_drill": 0.1,
         "name": "PWM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(235, 223, 32)",
+        "schematic_color": "rgb(196, 187, 0)",
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -468,6 +485,18 @@
       {
         "netclass": "DEBUG",
         "pattern": "/SWD*"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "BTN*"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/BTN*"
+      },
+      {
+        "netclass": "PWM",
+        "pattern": "/LED*"
       }
     ]
   },
