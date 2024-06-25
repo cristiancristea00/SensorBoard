@@ -859,7 +859,7 @@
 				)
 			)
 		)
-		(symbol "LED:Inolux_IN-P55TATRGB"
+		(symbol "LED:ASMT-YTB7-0AA02"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -873,7 +873,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Inolux_IN-P55TATRGB"
+			(property "Value" "ASMT-YTB7-0AA02"
 				(at -5.08 -6.35 0)
 				(effects
 					(font
@@ -882,7 +882,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_Inolux_IN-P55TATRGB_PLCC6_5.0x5.5mm_P1.8mm"
+			(property "Footprint" "LED_SMD:LED_Avago_PLCC6_3x2.8mm"
 				(at -5.08 -8.128 0)
 				(effects
 					(font
@@ -892,8 +892,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/RGB%20Top%20View/IN-P55TATRGB.pdf"
-				(at -5.08 -10.16 0)
+			(property "Datasheet" "https://docs.broadcom.com/docs/AV02-3793EN"
+				(at 3.81 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -902,7 +902,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Inolux RGB LED, PLCC-6"
+			(property "Description" "Triple LED RVB (Avago Technology)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -920,7 +920,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LED*Inolux*PLCC6*5.0x5.5mm*"
+			(property "ki_fp_filters" "LED?Avago?PLCC6?3x2.8mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -929,9 +929,25 @@
 					(hide yes)
 				)
 			)
-			(symbol "Inolux_IN-P55TATRGB_0_0"
+			(symbol "ASMT-YTB7-0AA02_0_0"
 				(text "B"
-					(at -0.635 -3.3274 0)
+					(at -0.508 -3.4544 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(text "G"
+					(at 4.5466 -0.8382 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(text "R"
+					(at -0.381 1.8034 0)
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -939,7 +955,7 @@
 					)
 				)
 			)
-			(symbol "Inolux_IN-P55TATRGB_0_1"
+			(symbol "ASMT-YTB7-0AA02_0_1"
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -1204,25 +1220,7 @@
 					)
 				)
 			)
-			(symbol "Inolux_IN-P55TATRGB_1_0"
-				(text "G"
-					(at -0.635 1.8034 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(text "R"
-					(at 4.4196 -0.7112 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "Inolux_IN-P55TATRGB_1_1"
+			(symbol "ASMT-YTB7-0AA02_1_1"
 				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 2.54)
@@ -1244,7 +1242,7 @@
 				(pin passive line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "KR"
+					(name "KG"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1262,7 +1260,7 @@
 				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "KG"
+					(name "KR"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1280,7 +1278,7 @@
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "AG"
+					(name "AR"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1298,7 +1296,7 @@
 				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
-					(name "AR"
+					(name "AG"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2434,7 +2432,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -0.254 6.858 0)
+				(at -1.524 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2442,7 +2440,151 @@
 				)
 			)
 			(property "Value" "Conn_DAC"
-				(at 4.064 -6.858 0)
+				(at 2.794 -6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -3.81 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -3.81 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0.254 -14.478 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_DAC_0_0"
+				(rectangle
+					(start -4.064 -4.064)
+					(end -3.556 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 6.604 0.254)
+					(end 7.62 -0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_DAC_1_0"
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "DAC_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -3.81 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Conn_DAC_1_1"
+				(rectangle
+					(start -6.35 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "SensorBoard:Conn_SWD"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -1.524 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_SWD"
+				(at 4.826 -7.112 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2494,7 +2636,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_DAC_0_0"
+			(symbol "Conn_SWD_0_0"
 				(rectangle
 					(start -2.794 -4.064)
 					(end -2.286 -5.08)
@@ -2507,8 +2649,19 @@
 					)
 				)
 				(rectangle
-					(start 7.874 0.254)
-					(end 8.89 -0.254)
+					(start 5.334 -2.286)
+					(end 6.35 -2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.334 2.794)
+					(end 6.35 2.286)
 					(stroke
 						(width 0)
 						(type default)
@@ -2518,11 +2671,11 @@
 					)
 				)
 			)
-			(symbol "Conn_DAC_1_0"
-				(pin input line
-					(at 11.43 0 180)
+			(symbol "Conn_SWD_1_0"
+				(pin bidirectional line
+					(at 8.89 2.54 180)
 					(length 2.54)
-					(name "DAC_OUT"
+					(name "SWDCLK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2555,163 +2708,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -6.35 -7.62 90)
-					(length 2.54)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Conn_DAC_1_1"
-				(rectangle
-					(start -8.89 5.08)
-					(end 8.89 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-		)
-		(symbol "SensorBoard:Conn_SWD"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -0.254 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_SWD"
-				(at 6.096 -7.112 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at -1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 2.794 -14.478 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_SWD_0_0"
-				(rectangle
-					(start -1.524 -4.064)
-					(end -1.016 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 6.604 -2.286)
-					(end 7.62 -2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 6.604 2.794)
-					(end 7.62 2.286)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Conn_SWD_1_0"
 				(pin bidirectional line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "SWDCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -2.54 180)
+					(at 8.89 -2.54 180)
 					(length 2.54)
 					(name "SWDIO"
 						(effects
@@ -2720,43 +2718,7 @@
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -1.27 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 90)
-					(length 2.54)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2767,8 +2729,8 @@
 			)
 			(symbol "Conn_SWD_1_1"
 				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
+					(start -5.08 5.08)
+					(end 6.35 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2787,7 +2749,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 6.858 0)
+				(at -2.54 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2795,7 +2757,7 @@
 				)
 			)
 			(property "Value" "Conn_UART"
-				(at 6.858 -6.858 0)
+				(at 4.318 -6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2803,7 +2765,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -2.54 2.54 0)
+				(at -5.08 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2812,7 +2774,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at -2.54 2.54 0)
+				(at -5.08 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2821,7 +2783,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 1.524 -14.478 0)
+				(at -1.016 -14.478 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2849,8 +2811,8 @@
 			)
 			(symbol "Conn_UART_0_0"
 				(rectangle
-					(start -0.254 -4.064)
-					(end 0.254 -5.08)
+					(start -2.794 -4.064)
+					(end -2.286 -5.08)
 					(stroke
 						(width 0)
 						(type default)
@@ -2860,8 +2822,8 @@
 					)
 				)
 				(rectangle
-					(start 5.334 -2.286)
-					(end 6.35 -2.794)
+					(start 2.794 -2.286)
+					(end 3.81 -2.794)
 					(stroke
 						(width 0)
 						(type default)
@@ -2871,8 +2833,8 @@
 					)
 				)
 				(rectangle
-					(start 5.334 2.794)
-					(end 6.35 2.286)
+					(start 2.794 2.794)
+					(end 3.81 2.286)
 					(stroke
 						(width 0)
 						(type default)
@@ -2883,10 +2845,10 @@
 				)
 			)
 			(symbol "Conn_UART_1_0"
-				(pin input line
-					(at 8.89 2.54 180)
+				(pin output line
+					(at 6.35 -2.54 180)
 					(length 2.54)
-					(name "TX"
+					(name "RX"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2901,10 +2863,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 8.89 -2.54 180)
+				(pin power_in line
+					(at -2.54 -7.62 90)
 					(length 2.54)
-					(name "RX"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2919,10 +2881,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -7.62 90)
+				(pin input line
+					(at 6.35 2.54 180)
 					(length 2.54)
-					(name "GND"
+					(name "TX"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2937,29 +2899,11 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -3.81 -7.62 90)
-					(length 2.54)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "Conn_UART_1_1"
 				(rectangle
-					(start -6.35 5.08)
-					(end 6.35 -5.08)
+					(start -5.08 5.08)
+					(end 3.81 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -5621,12 +5565,6 @@
 		(uuid "0e04b524-ac71-40de-a6e4-9601033eb208")
 	)
 	(junction
-		(at 201.93 266.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f1dcaf9-782a-4605-9c6a-e1f0ef3a9463")
-	)
-	(junction
 		(at 334.01 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5757,18 +5695,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55d1269a-c918-4de6-a605-ad15a8f6ec57")
-	)
-	(junction
-		(at 52.07 265.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5733aaa3-6244-4db0-abe6-df9bda6eb560")
-	)
-	(junction
-		(at 128.27 265.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "576427c6-884e-4c70-9d0a-776a9e070656")
 	)
 	(junction
 		(at 297.18 152.4)
@@ -6298,16 +6224,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 265.43) (xy 52.07 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1045bd4a-08fa-4182-bc21-ba42a14a506d")
-	)
-	(wire
-		(pts
 			(xy 130.81 149.86) (xy 130.81 158.75)
 		)
 		(stroke
@@ -6418,13 +6334,13 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 266.7) (xy 201.93 267.97)
+			(xy 50.8 264.16) (xy 50.8 265.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "16823c6d-0d3f-4f33-a1cc-9fb2a559372b")
+		(uuid "1687921d-1bfe-4dae-9875-31e3ed6a324c")
 	)
 	(wire
 		(pts
@@ -6485,16 +6401,6 @@
 			(type default)
 		)
 		(uuid "19f29eb2-184d-475a-bba5-cf66a776feaf")
-	)
-	(wire
-		(pts
-			(xy 128.27 264.16) (xy 128.27 265.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19fe9449-d3e2-40de-a63c-46a5b3cbc7dc")
 	)
 	(wire
 		(pts
@@ -6608,7 +6514,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 259.08) (xy 66.04 259.08)
+			(xy 62.23 259.08) (xy 64.77 259.08)
 		)
 		(stroke
 			(width 0)
@@ -6828,26 +6734,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 265.43) (xy 201.93 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33a267bd-5acb-4e02-b625-60e584d61756")
-	)
-	(wire
-		(pts
-			(xy 48.26 264.16) (xy 48.26 265.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3797cd41-df40-42c9-bc1c-24996ce4d82a")
-	)
-	(wire
-		(pts
 			(xy 97.79 158.75) (xy 130.81 158.75)
 		)
 		(stroke
@@ -6885,16 +6771,6 @@
 			(type default)
 		)
 		(uuid "39fa43e5-025f-4971-b660-5160f7fb02a4")
-	)
-	(wire
-		(pts
-			(xy 198.12 265.43) (xy 198.12 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a16241b-c6ba-4ecc-9226-99e949f85438")
 	)
 	(wire
 		(pts
@@ -6995,16 +6871,6 @@
 			(type default)
 		)
 		(uuid "3e0842f6-df2b-4562-81c6-4dd2fdcc91b6")
-	)
-	(wire
-		(pts
-			(xy 124.46 264.16) (xy 124.46 265.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ebba493-0108-4576-9b0c-3a411b9c0d84")
 	)
 	(wire
 		(pts
@@ -7268,7 +7134,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 254) (xy 139.7 254)
+			(xy 134.62 254) (xy 137.16 254)
 		)
 		(stroke
 			(width 0)
@@ -7375,16 +7241,6 @@
 			(type default)
 		)
 		(uuid "5c2622c9-3de3-4427-929e-9ab1ebc97097")
-	)
-	(wire
-		(pts
-			(xy 48.26 265.43) (xy 52.07 265.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cbc1066-a733-45fc-bb94-411bf2a164b7")
 	)
 	(wire
 		(pts
@@ -8108,7 +7964,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 259.08) (xy 139.7 259.08)
+			(xy 134.62 259.08) (xy 137.16 259.08)
 		)
 		(stroke
 			(width 0)
@@ -8308,16 +8164,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 265.43) (xy 128.27 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a90ac30c-ef1b-43b0-acbd-ef7259408b10")
-	)
-	(wire
-		(pts
 			(xy 224.79 66.04) (xy 224.79 68.58)
 		)
 		(stroke
@@ -8325,16 +8171,6 @@
 			(type default)
 		)
 		(uuid "a9253a6a-22b2-4081-ab6e-91860639816b")
-	)
-	(wire
-		(pts
-			(xy 198.12 266.7) (xy 201.93 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a94bf250-60f6-48d9-97fd-a403fb76c017")
 	)
 	(wire
 		(pts
@@ -8608,6 +8444,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 265.43) (xy 200.66 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdb69d7c-fe7a-48e5-a575-9b68f747ede7")
+	)
+	(wire
+		(pts
 			(xy 340.36 220.98) (xy 342.9 220.98)
 		)
 		(stroke
@@ -8658,7 +8504,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 254) (xy 66.04 254)
+			(xy 62.23 254) (xy 64.77 254)
 		)
 		(stroke
 			(width 0)
@@ -8918,7 +8764,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 257.81) (xy 218.44 257.81)
+			(xy 214.63 257.81) (xy 217.17 257.81)
 		)
 		(stroke
 			(width 0)
@@ -9018,13 +8864,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 264.16) (xy 52.07 265.43)
+			(xy 125.73 264.16) (xy 125.73 265.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5a0680c-d16f-4942-bca2-3fde44428474")
+		(uuid "e58c17bc-c56d-4d43-bcc0-b4a6bac14a10")
 	)
 	(wire
 		(pts
@@ -9228,16 +9074,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 265.43) (xy 128.27 265.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2c09c31-7d96-4b84-8fe2-f6d15611d59a")
-	)
-	(wire
-		(pts
 			(xy 307.34 119.38) (xy 307.34 120.65)
 		)
 		(stroke
@@ -9424,7 +9260,7 @@
 	)
 	(rectangle
 		(start 118.11 238.76)
-		(end 153.67 273.05)
+		(end 153.67 271.78)
 		(stroke
 			(width 1)
 			(type default)
@@ -9436,7 +9272,7 @@
 	)
 	(rectangle
 		(start 41.91 238.76)
-		(end 85.09 273.05)
+		(end 85.09 271.78)
 		(stroke
 			(width 1)
 			(type default)
@@ -9460,7 +9296,7 @@
 	)
 	(rectangle
 		(start 191.77 240.03)
-		(end 233.68 274.32)
+		(end 233.68 273.05)
 		(stroke
 			(width 1)
 			(type default)
@@ -9987,7 +9823,7 @@
 		)
 		(uuid "a63796c0-ed91-4969-8549-11c76f039aa0")
 	)
-	(label "LED_G_R"
+	(label "LED_R_R"
 		(at 364.49 106.68 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10000,7 +9836,7 @@
 		)
 		(uuid "b065daaf-ba18-48f3-b415-d0a2f7dbc3bf")
 	)
-	(label "LED_R_R"
+	(label "LED_G_R"
 		(at 364.49 109.22 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10340,7 +10176,7 @@
 	)
 	(global_label "SWD_SWCLK"
 		(shape bidirectional)
-		(at 66.04 254 0)
+		(at 64.77 254 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10350,7 +10186,7 @@
 		)
 		(uuid "25f36556-3546-4058-9021-e25ca3500f29")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.264 254 0)
+			(at 79.994 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10360,7 +10196,7 @@
 			)
 		)
 	)
-	(global_label "LED_G"
+	(global_label "LED_R"
 		(shape input)
 		(at 351.79 106.68 180)
 		(fields_autoplaced yes)
@@ -10494,7 +10330,7 @@
 	)
 	(global_label "UART_TX"
 		(shape input)
-		(at 139.7 254 0)
+		(at 137.16 254 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10504,7 +10340,7 @@
 		)
 		(uuid "36e1108e-83fe-4fd5-9b45-3e4f0bd54880")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.4866 254 0)
+			(at 147.9466 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10516,7 +10352,7 @@
 	)
 	(global_label "SWD_SWDIO"
 		(shape bidirectional)
-		(at 66.04 259.08 0)
+		(at 64.77 259.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10526,7 +10362,7 @@
 		)
 		(uuid "3dde6f76-ccab-475d-af6c-81b92cd46a94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.9012 259.08 0)
+			(at 79.6312 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10538,7 +10374,7 @@
 	)
 	(global_label "UART_RX"
 		(shape output)
-		(at 139.7 259.08 0)
+		(at 137.16 259.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10548,7 +10384,7 @@
 		)
 		(uuid "3fd66a46-6b79-4224-831b-4b59132563ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.789 259.08 0)
+			(at 148.249 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10934,7 +10770,7 @@
 	)
 	(global_label "DAC_OUT"
 		(shape input)
-		(at 218.44 257.81 0)
+		(at 217.17 257.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10944,7 +10780,7 @@
 		)
 		(uuid "7b0c741b-563f-4ed9-a785-ebcfe66053dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.65 257.81 0)
+			(at 228.38 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11196,7 +11032,7 @@
 			)
 		)
 	)
-	(global_label "LED_R"
+	(global_label "LED_G"
 		(shape input)
 		(at 351.79 109.22 180)
 		(fields_autoplaced yes)
@@ -12147,7 +11983,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0410_1x04_P1.25mm_Horizontal"
+		(property "Footprint" "SensorBoard:SM03B-SR"
 			(at 52.07 254 0)
 			(effects
 				(font
@@ -12176,9 +12012,6 @@
 		)
 		(pin "3"
 			(uuid "0d5a7921-53ed-4de7-be56-d98cb7b92a34")
-		)
-		(pin "4"
-			(uuid "0f0b4d4a-b356-44d6-a248-3c883d40b6d6")
 		)
 		(pin "2"
 			(uuid "8e356911-d24e-4b15-91ee-452b0b3ac474")
@@ -12967,7 +12800,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0410_1x04_P1.25mm_Horizontal"
+		(property "Footprint" "SensorBoard:SM03B-SR"
 			(at 125.73 254 0)
 			(effects
 				(font
@@ -12996,9 +12829,6 @@
 		)
 		(pin "3"
 			(uuid "2e32b95f-3b07-41b5-87fb-5172ef0c872a")
-		)
-		(pin "4"
-			(uuid "d90ddd34-3a80-441f-9bb7-a1674cc7f37e")
 		)
 		(pin "2"
 			(uuid "c5ff24d5-b9f3-4e60-be2d-8c0053798c8f")
@@ -13769,6 +13599,78 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 200.66 266.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "482df1f3-07d6-4bb1-bffe-d686f9261dad")
+		(property "Reference" "#PWR047"
+			(at 200.66 273.05 0)
+			(effects
+				(font
+					(face "IBM Plex Sans")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 271.78 0)
+			(effects
+				(font
+					(face "IBM Plex Sans")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 266.7 0)
+			(effects
+				(font
+					(face "IBM Plex Sans")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 266.7 0)
+			(effects
+				(font
+					(face "IBM Plex Sans")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 266.7 0)
+			(effects
+				(font
+					(face "IBM Plex Sans")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74a56564-e82b-4d08-acd8-5da142de1339")
+		)
+		(instances
+			(project "SensorBoard"
+				(path "/56f2708f-e6aa-4b97-8a34-e15d8ff6695d"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 209.55 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13834,78 +13736,6 @@
 			(project "SensorBoard"
 				(path "/56f2708f-e6aa-4b97-8a34-e15d8ff6695d"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 128.27 266.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c8b0d00-3ba5-4513-a486-7bd8bd8b61fd")
-		(property "Reference" "#PWR043"
-			(at 128.27 273.05 0)
-			(effects
-				(font
-					(face "IBM Plex Sans")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 128.27 271.78 0)
-			(effects
-				(font
-					(face "IBM Plex Sans")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 266.7 0)
-			(effects
-				(font
-					(face "IBM Plex Sans")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 266.7 0)
-			(effects
-				(font
-					(face "IBM Plex Sans")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 266.7 0)
-			(effects
-				(font
-					(face "IBM Plex Sans")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c936f735-3e1d-44e0-a2c9-48dce0a4f658")
-		)
-		(instances
-			(project "SensorBoard"
-				(path "/56f2708f-e6aa-4b97-8a34-e15d8ff6695d"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -15096,87 +14926,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:Inolux_IN-P55TATRGB")
-		(at 379.73 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "64070e34-6b6d-430f-8d99-7edc7a4de539")
-		(property "Reference" "D5"
-			(at 379.73 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IN-P55TATRGB"
-			(at 379.73 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_Inolux_IN-P55TATRGB_PLCC6_5.0x5.5mm_P1.8mm"
-			(at 374.65 117.348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/RGB%20Top%20View/IN-P55TATRGB.pdf"
-			(at 374.65 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inolux RGB LED, PLCC-6"
-			(at 379.73 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d23f33b4-8030-4bf2-ba7d-a71610a734dd")
-		)
-		(pin "3"
-			(uuid "c876c04f-5b48-4112-a18c-ce8dec5ab65f")
-		)
-		(pin "1"
-			(uuid "c12baa05-a298-4011-acf9-6d73bb53c29d")
-		)
-		(pin "6"
-			(uuid "758a1a26-d335-4770-95c1-b171cc00240d")
-		)
-		(pin "5"
-			(uuid "e4dfae88-c317-4c3a-8d6b-a894d52d7b2f")
-		)
-		(pin "4"
-			(uuid "f28e2303-66ca-412b-a33f-af59b188e0b0")
-		)
-		(instances
-			(project ""
-				(path "/56f2708f-e6aa-4b97-8a34-e15d8ff6695d"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 285.75 66.04 0)
 		(unit 1)
@@ -15243,6 +14992,78 @@
 			(project "SensorBoard"
 				(path "/56f2708f-e6aa-4b97-8a34-e15d8ff6695d"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 265.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64a91d9e-9660-49a8-9bc1-7e7b6003b929")
+		(property "Reference" "#PWR045"
+			(at 50.8 271.78 0)
+			(effects
+				(font
+					(face "IBM Plex Sans")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 270.51 0)
+			(effects
+				(font
+					(face "IBM Plex Sans")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 265.43 0)
+			(effects
+				(font
+					(face "IBM Plex Sans")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 265.43 0)
+			(effects
+				(font
+					(face "IBM Plex Sans")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 265.43 0)
+			(effects
+				(font
+					(face "IBM Plex Sans")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5f117d3-e824-4dda-812c-70a408985c84")
+		)
+		(instances
+			(project "SensorBoard"
+				(path "/56f2708f-e6aa-4b97-8a34-e15d8ff6695d"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -18050,6 +17871,78 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 125.73 265.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be127d22-7dff-4142-b94a-3403a2856b89")
+		(property "Reference" "#PWR043"
+			(at 125.73 271.78 0)
+			(effects
+				(font
+					(face "IBM Plex Sans")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 270.51 0)
+			(effects
+				(font
+					(face "IBM Plex Sans")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 265.43 0)
+			(effects
+				(font
+					(face "IBM Plex Sans")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 265.43 0)
+			(effects
+				(font
+					(face "IBM Plex Sans")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 265.43 0)
+			(effects
+				(font
+					(face "IBM Plex Sans")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5532dc4-f713-4243-9287-5a8e5d2c28fe")
+		)
+		(instances
+			(project "SensorBoard"
+				(path "/56f2708f-e6aa-4b97-8a34-e15d8ff6695d"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 290.83 102.87 90)
 		(unit 1)
@@ -18256,6 +18149,87 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:ASMT-YTB7-0AA02")
+		(at 379.73 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4160c18-e68e-4997-ada5-adec91a23392")
+		(property "Reference" "D8"
+			(at 379.73 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ASMT-YTB7-0AA02"
+			(at 379.73 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Avago_PLCC6_3x2.8mm"
+			(at 374.65 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.broadcom.com/docs/AV02-3793EN"
+			(at 383.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Triple LED RVB (Avago Technology)"
+			(at 379.73 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b8a2cca-bd1a-493a-8821-8bbfacdb1c54")
+		)
+		(pin "5"
+			(uuid "f2a1bddb-98f4-4c10-8cbf-fd518eca94d1")
+		)
+		(pin "6"
+			(uuid "fc03876f-3acb-4b81-af22-d82a09ab212c")
+		)
+		(pin "3"
+			(uuid "a9cf2e8b-7273-4e73-9f34-fb0687d01314")
+		)
+		(pin "2"
+			(uuid "9708c14d-6f25-4821-a237-92d09b5b8fcc")
+		)
+		(pin "4"
+			(uuid "0c194190-e03b-4f07-a7e7-c54d911724b5")
+		)
+		(instances
+			(project ""
+				(path "/56f2708f-e6aa-4b97-8a34-e15d8ff6695d"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 203.2 212.09 0)
 		(unit 1)
@@ -18352,7 +18326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "SensorBoard:SM02B-SR"
 			(at 201.93 255.27 0)
 			(effects
 				(font
@@ -18384,9 +18358,6 @@
 		)
 		(pin "2"
 			(uuid "6673ba58-d0a7-44de-90a0-378bfb139244")
-		)
-		(pin "3"
-			(uuid "dc35916d-6faf-4799-9653-3a699045ddbf")
 		)
 		(instances
 			(project ""
@@ -19105,78 +19076,6 @@
 			(project "SensorBoard"
 				(path "/56f2708f-e6aa-4b97-8a34-e15d8ff6695d"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 52.07 266.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db9706c1-89f0-4a59-997c-be4c3c9047ce")
-		(property "Reference" "#PWR045"
-			(at 52.07 273.05 0)
-			(effects
-				(font
-					(face "IBM Plex Sans")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 52.07 271.78 0)
-			(effects
-				(font
-					(face "IBM Plex Sans")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 266.7 0)
-			(effects
-				(font
-					(face "IBM Plex Sans")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 266.7 0)
-			(effects
-				(font
-					(face "IBM Plex Sans")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 266.7 0)
-			(effects
-				(font
-					(face "IBM Plex Sans")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa91573d-c68c-4087-ad82-8df0ee04ef93")
-		)
-		(instances
-			(project "SensorBoard"
-				(path "/56f2708f-e6aa-4b97-8a34-e15d8ff6695d"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -20360,78 +20259,6 @@
 			(project "SensorBoard"
 				(path "/56f2708f-e6aa-4b97-8a34-e15d8ff6695d"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 201.93 267.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f912549f-3c8a-46e2-b711-28561676273e")
-		(property "Reference" "#PWR047"
-			(at 201.93 274.32 0)
-			(effects
-				(font
-					(face "IBM Plex Sans")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 201.93 273.05 0)
-			(effects
-				(font
-					(face "IBM Plex Sans")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 267.97 0)
-			(effects
-				(font
-					(face "IBM Plex Sans")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 267.97 0)
-			(effects
-				(font
-					(face "IBM Plex Sans")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 267.97 0)
-			(effects
-				(font
-					(face "IBM Plex Sans")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "501a0698-3998-4b8a-af84-2cf1d70a6834")
-		)
-		(instances
-			(project "SensorBoard"
-				(path "/56f2708f-e6aa-4b97-8a34-e15d8ff6695d"
-					(reference "#PWR047")
 					(unit 1)
 				)
 			)

@@ -486,7 +486,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at -0.254 6.858 0)
+			(at -1.524 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -494,7 +494,151 @@
 			)
 		)
 		(property "Value" "Conn_DAC"
-			(at 4.064 -6.858 0)
+			(at 2.794 -6.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -3.81 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -3.81 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0.254 -14.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Conn_DAC_0_0"
+			(rectangle
+				(start -4.064 -4.064)
+				(end -3.556 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 6.604 0.254)
+				(end 7.62 -0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Conn_DAC_1_0"
+			(pin input line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "DAC_OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -7.62 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Conn_DAC_1_1"
+			(rectangle
+				(start -6.35 5.08)
+				(end 7.62 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+	)
+	(symbol "Conn_SWD"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at -1.524 6.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_SWD"
+			(at 4.826 -7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -546,7 +690,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Conn_DAC_0_0"
+		(symbol "Conn_SWD_0_0"
 			(rectangle
 				(start -2.794 -4.064)
 				(end -2.286 -5.08)
@@ -559,8 +703,19 @@
 				)
 			)
 			(rectangle
-				(start 7.874 0.254)
-				(end 8.89 -0.254)
+				(start 5.334 -2.286)
+				(end 6.35 -2.794)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5.334 2.794)
+				(end 6.35 2.286)
 				(stroke
 					(width 0)
 					(type default)
@@ -570,11 +725,11 @@
 				)
 			)
 		)
-		(symbol "Conn_DAC_1_0"
-			(pin input line
-				(at 11.43 0 180)
+		(symbol "Conn_SWD_1_0"
+			(pin bidirectional line
+				(at 8.89 2.54 180)
 				(length 2.54)
-				(name "DAC_OUT"
+				(name "SWDCLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -607,163 +762,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -6.35 -7.62 90)
-				(length 2.54)
-				(name "SHIELD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Conn_DAC_1_1"
-			(rectangle
-				(start -8.89 5.08)
-				(end 8.89 -5.08)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-	)
-	(symbol "Conn_SWD"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "J"
-			(at -0.254 6.858 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_SWD"
-			(at 6.096 -7.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -1.27 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -1.27 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 2.794 -14.478 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "connector"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "Connector*:*_1x??_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Conn_SWD_0_0"
-			(rectangle
-				(start -1.524 -4.064)
-				(end -1.016 -5.08)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 6.604 -2.286)
-				(end 7.62 -2.794)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 6.604 2.794)
-				(end 7.62 2.286)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Conn_SWD_1_0"
 			(pin bidirectional line
-				(at 10.16 2.54 180)
-				(length 2.54)
-				(name "SWDCLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 10.16 -2.54 180)
+				(at 8.89 -2.54 180)
 				(length 2.54)
 				(name "SWDIO"
 					(effects
@@ -772,43 +772,7 @@
 						)
 					)
 				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -1.27 -7.62 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 -7.62 90)
-				(length 2.54)
-				(name "SHIELD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -819,8 +783,8 @@
 		)
 		(symbol "Conn_SWD_1_1"
 			(rectangle
-				(start -7.62 5.08)
-				(end 7.62 -5.08)
+				(start -5.08 5.08)
+				(end 6.35 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -839,7 +803,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 0 6.858 0)
+			(at -2.54 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -847,7 +811,7 @@
 			)
 		)
 		(property "Value" "Conn_UART"
-			(at 6.858 -6.858 0)
+			(at 4.318 -6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -855,7 +819,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -2.54 2.54 0)
+			(at -5.08 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -864,7 +828,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -2.54 2.54 0)
+			(at -5.08 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -873,7 +837,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 1.524 -14.478 0)
+			(at -1.016 -14.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -901,8 +865,8 @@
 		)
 		(symbol "Conn_UART_0_0"
 			(rectangle
-				(start -0.254 -4.064)
-				(end 0.254 -5.08)
+				(start -2.794 -4.064)
+				(end -2.286 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -912,8 +876,8 @@
 				)
 			)
 			(rectangle
-				(start 5.334 -2.286)
-				(end 6.35 -2.794)
+				(start 2.794 -2.286)
+				(end 3.81 -2.794)
 				(stroke
 					(width 0)
 					(type default)
@@ -923,8 +887,8 @@
 				)
 			)
 			(rectangle
-				(start 5.334 2.794)
-				(end 6.35 2.286)
+				(start 2.794 2.794)
+				(end 3.81 2.286)
 				(stroke
 					(width 0)
 					(type default)
@@ -935,10 +899,10 @@
 			)
 		)
 		(symbol "Conn_UART_1_0"
-			(pin input line
-				(at 8.89 2.54 180)
+			(pin output line
+				(at 6.35 -2.54 180)
 				(length 2.54)
-				(name "TX"
+				(name "RX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -953,10 +917,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 8.89 -2.54 180)
+			(pin power_in line
+				(at -2.54 -7.62 90)
 				(length 2.54)
-				(name "RX"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -971,10 +935,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -7.62 90)
+			(pin input line
+				(at 6.35 2.54 180)
 				(length 2.54)
-				(name "GND"
+				(name "TX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -989,29 +953,11 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -3.81 -7.62 90)
-				(length 2.54)
-				(name "SHIELD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(symbol "Conn_UART_1_1"
 			(rectangle
-				(start -6.35 5.08)
-				(end 6.35 -5.08)
+				(start -5.08 5.08)
+				(end 3.81 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
