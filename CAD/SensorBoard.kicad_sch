@@ -1331,6 +1331,108 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Power_Protection:USBLC6-2SC6"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -5781,6 +5883,12 @@
 		(uuid "77769f9c-9caa-43ee-820b-f20d5edac063")
 	)
 	(junction
+		(at 36.83 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "777c7615-c39e-445d-845e-d5ddb04e36c8")
+	)
+	(junction
 		(at 307.34 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5847,6 +5955,12 @@
 		(uuid "a9a08e06-ed89-462b-9e40-7b1c237a5f9a")
 	)
 	(junction
+		(at 54.61 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3064e6c-8947-4a83-92d0-719531d210cc")
+	)
+	(junction
 		(at 102.87 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5875,6 +5989,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3e8852d-785f-457d-87cb-91addd15e907")
+	)
+	(junction
+		(at 45.72 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d57629a0-cef3-469e-a56e-16c75abb9df5")
 	)
 	(junction
 		(at 276.86 57.15)
@@ -6184,6 +6304,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 257.81) (xy 63.5 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d5aaef1-9f40-47df-8653-fdf559c51dbf")
+	)
+	(wire
+		(pts
 			(xy 60.96 81.28) (xy 69.85 81.28)
 		)
 		(stroke
@@ -6334,7 +6464,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 264.16) (xy 50.8 265.43)
+			(xy 99.06 261.62) (xy 99.06 262.89)
 		)
 		(stroke
 			(width 0)
@@ -6444,6 +6574,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 255.27) (xy 54.61 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d5faa41-4f35-4819-9402-cf811ec33cef")
+	)
+	(wire
+		(pts
 			(xy 69.85 80.01) (xy 69.85 81.28)
 		)
 		(stroke
@@ -6514,7 +6654,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 259.08) (xy 64.77 259.08)
+			(xy 110.49 256.54) (xy 113.03 256.54)
 		)
 		(stroke
 			(width 0)
@@ -7134,7 +7274,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 254) (xy 137.16 254)
+			(xy 168.91 254) (xy 171.45 254)
 		)
 		(stroke
 			(width 0)
@@ -7331,6 +7471,16 @@
 			(type default)
 		)
 		(uuid "63c7525a-c8e0-4eaf-b5b0-8386dfbd9a4b")
+	)
+	(wire
+		(pts
+			(xy 45.72 255.27) (xy 45.72 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63e7deeb-ffa4-407b-b7d8-c4629533474b")
 	)
 	(wire
 		(pts
@@ -7844,6 +7994,26 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 255.27) (xy 36.83 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e83844e-2049-4128-86cf-3d5ec58b1c8d")
+	)
+	(wire
+		(pts
+			(xy 36.83 257.81) (xy 45.72 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa1a3bc-8434-49c7-b2ad-db957ca6788a")
+	)
+	(wire
+		(pts
 			(xy 266.7 119.38) (xy 269.24 119.38)
 		)
 		(stroke
@@ -7964,7 +8134,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 259.08) (xy 137.16 259.08)
+			(xy 168.91 259.08) (xy 171.45 259.08)
 		)
 		(stroke
 			(width 0)
@@ -8001,6 +8171,16 @@
 			(type default)
 		)
 		(uuid "99c0e478-153a-48d6-b577-6f44ce3b4fe4")
+	)
+	(wire
+		(pts
+			(xy 54.61 257.81) (xy 63.5 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d67b15a-f9d2-4a8c-8343-ff753cd87aca")
 	)
 	(wire
 		(pts
@@ -8444,7 +8624,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 265.43) (xy 200.66 266.7)
+			(xy 217.17 266.7) (xy 217.17 267.97)
 		)
 		(stroke
 			(width 0)
@@ -8504,13 +8684,23 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 254) (xy 64.77 254)
+			(xy 110.49 251.46) (xy 113.03 251.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c1123fce-bdca-4a13-8184-ec3bf579cf3a")
+	)
+	(wire
+		(pts
+			(xy 45.72 257.81) (xy 54.61 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c17b727c-a278-43ed-b614-181701474ba6")
 	)
 	(wire
 		(pts
@@ -8714,6 +8904,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 257.81) (xy 36.83 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d91ed260-26f3-414b-ab1d-70c54f565ae6")
+	)
+	(wire
+		(pts
 			(xy 307.34 162.56) (xy 307.34 163.83)
 		)
 		(stroke
@@ -8764,7 +8964,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 257.81) (xy 217.17 257.81)
+			(xy 231.14 259.08) (xy 233.68 259.08)
 		)
 		(stroke
 			(width 0)
@@ -8864,7 +9064,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 264.16) (xy 125.73 265.43)
+			(xy 160.02 264.16) (xy 160.02 265.43)
 		)
 		(stroke
 			(width 0)
@@ -9259,8 +9459,8 @@
 		(uuid 3804b6fd-aa68-4d91-be54-c0157607ad00)
 	)
 	(rectangle
-		(start 118.11 238.76)
-		(end 153.67 271.78)
+		(start 152.4 238.76)
+		(end 187.96 271.78)
 		(stroke
 			(width 1)
 			(type default)
@@ -9271,8 +9471,8 @@
 		(uuid 42084ff6-c140-4c76-9404-b3d47e2d0302)
 	)
 	(rectangle
-		(start 41.91 238.76)
-		(end 85.09 271.78)
+		(start 90.17 236.22)
+		(end 133.35 269.24)
 		(stroke
 			(width 1)
 			(type default)
@@ -9281,6 +9481,18 @@
 			(type none)
 		)
 		(uuid 4469c020-2b3e-4e8c-b619-3a1b6781e16f)
+	)
+	(rectangle
+		(start 30.48 238.76)
+		(end 72.39 266.7)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4608f47d-96d3-4429-8c0a-c880c627519a)
 	)
 	(rectangle
 		(start 260.35 85.09)
@@ -9295,8 +9507,8 @@
 		(uuid 52fc9e3b-e290-4cd2-a85e-5d04f91c4fa2)
 	)
 	(rectangle
-		(start 191.77 240.03)
-		(end 233.68 273.05)
+		(start 208.28 241.3)
+		(end 250.19 274.32)
 		(stroke
 			(width 1)
 			(type default)
@@ -9438,7 +9650,7 @@
 	)
 	(text "External UART Connector"
 		(exclude_from_sim no)
-		(at 135.89 243.84 0)
+		(at 170.18 243.84 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -9450,7 +9662,7 @@
 	)
 	(text "External DAC Connector"
 		(exclude_from_sim no)
-		(at 213.36 245.11 0)
+		(at 229.87 246.38 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -9459,6 +9671,18 @@
 			)
 		)
 		(uuid "373cbd7a-6900-4fbe-87b3-1e85db7223ac")
+	)
+	(text "Mounting Holes\n"
+		(exclude_from_sim no)
+		(at 51.054 243.84 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+		)
+		(uuid "6eca423b-9578-43bb-b98e-3535ae6d3f5f")
 	)
 	(text "+5V to +3V3 LDO Regulator"
 		(exclude_from_sim no)
@@ -9486,7 +9710,7 @@
 	)
 	(text "External SWD Connector"
 		(exclude_from_sim no)
-		(at 63.5 243.84 0)
+		(at 111.76 241.3 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -10176,7 +10400,7 @@
 	)
 	(global_label "SWD_SWCLK"
 		(shape bidirectional)
-		(at 64.77 254 0)
+		(at 113.03 251.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10186,7 +10410,7 @@
 		)
 		(uuid "25f36556-3546-4058-9021-e25ca3500f29")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.994 254 0)
+			(at 128.254 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10330,7 +10554,7 @@
 	)
 	(global_label "UART_TX"
 		(shape input)
-		(at 137.16 254 0)
+		(at 171.45 254 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10340,7 +10564,7 @@
 		)
 		(uuid "36e1108e-83fe-4fd5-9b45-3e4f0bd54880")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.9466 254 0)
+			(at 182.2366 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10352,7 +10576,7 @@
 	)
 	(global_label "SWD_SWDIO"
 		(shape bidirectional)
-		(at 64.77 259.08 0)
+		(at 113.03 256.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10362,7 +10586,7 @@
 		)
 		(uuid "3dde6f76-ccab-475d-af6c-81b92cd46a94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.6312 259.08 0)
+			(at 127.8912 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10374,7 +10598,7 @@
 	)
 	(global_label "UART_RX"
 		(shape output)
-		(at 137.16 259.08 0)
+		(at 171.45 259.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10384,7 +10608,7 @@
 		)
 		(uuid "3fd66a46-6b79-4224-831b-4b59132563ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.249 259.08 0)
+			(at 182.539 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10770,7 +10994,7 @@
 	)
 	(global_label "DAC_OUT"
 		(shape input)
-		(at 217.17 257.81 0)
+		(at 233.68 259.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10780,7 +11004,7 @@
 		)
 		(uuid "7b0c741b-563f-4ed9-a785-ebcfe66053dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.38 257.81 0)
+			(at 244.89 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11960,7 +12184,7 @@
 	)
 	(symbol
 		(lib_id "SensorBoard:Conn_SWD")
-		(at 53.34 256.54 0)
+		(at 101.6 254 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11968,7 +12192,7 @@
 		(dnp no)
 		(uuid "23ca564f-e9d8-476e-83c1-a6ba0185a7ef")
 		(property "Reference" "J2"
-			(at 53.34 248.92 0)
+			(at 101.6 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11976,7 +12200,7 @@
 			)
 		)
 		(property "Value" "SWD Connector"
-			(at 61.214 264.16 0)
+			(at 109.474 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11984,7 +12208,7 @@
 			)
 		)
 		(property "Footprint" "SensorBoard:SM03B-SR"
-			(at 52.07 254 0)
+			(at 100.33 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11993,7 +12217,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 254 0)
+			(at 100.33 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12002,7 +12226,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 56.134 271.018 0)
+			(at 104.394 268.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12777,7 +13001,7 @@
 	)
 	(symbol
 		(lib_id "SensorBoard:Conn_UART")
-		(at 128.27 256.54 0)
+		(at 162.56 256.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12785,7 +13009,7 @@
 		(dnp no)
 		(uuid "2fbc686c-d437-4dce-8af1-72b97501fb23")
 		(property "Reference" "J3"
-			(at 128.27 248.92 0)
+			(at 162.56 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12793,7 +13017,7 @@
 			)
 		)
 		(property "Value" "UART Connector"
-			(at 138.43 264.414 0)
+			(at 172.72 264.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12801,7 +13025,7 @@
 			)
 		)
 		(property "Footprint" "SensorBoard:SM03B-SR"
-			(at 125.73 254 0)
+			(at 160.02 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12810,7 +13034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 254 0)
+			(at 160.02 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12819,7 +13043,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.794 271.018 0)
+			(at 164.084 271.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13462,6 +13686,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 45.72 252.73 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "458d6450-740b-4ca7-ad1e-f31844146252")
+		(property "Reference" "M2"
+			(at 48.26 250.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 48.26 252.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 45.72 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 45.72 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03d4e19a-b0bf-41f8-9f97-0fbcde161edf")
+		)
+		(instances
+			(project "SensorBoard"
+				(path "/56f2708f-e6aa-4b97-8a34-e15d8ff6695d"
+					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 69.85 76.2 0)
 		(unit 1)
@@ -13598,8 +13890,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 63.5 252.73 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4787e8d9-1e79-4068-a7a6-9b03ec90bc62")
+		(property "Reference" "M4"
+			(at 66.04 250.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M4"
+			(at 66.04 252.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 63.5 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 63.5 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "090ce159-d649-4267-b2e9-e07c838e5094")
+		)
+		(instances
+			(project "SensorBoard"
+				(path "/56f2708f-e6aa-4b97-8a34-e15d8ff6695d"
+					(reference "M4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 200.66 266.7 0)
+		(at 217.17 267.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13608,7 +13968,7 @@
 		(fields_autoplaced yes)
 		(uuid "482df1f3-07d6-4bb1-bffe-d686f9261dad")
 		(property "Reference" "#PWR047"
-			(at 200.66 273.05 0)
+			(at 217.17 274.32 0)
 			(effects
 				(font
 					(face "IBM Plex Sans")
@@ -13618,7 +13978,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 271.78 0)
+			(at 217.17 273.05 0)
 			(effects
 				(font
 					(face "IBM Plex Sans")
@@ -13628,7 +13988,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 266.7 0)
+			(at 217.17 267.97 0)
 			(effects
 				(font
 					(face "IBM Plex Sans")
@@ -13638,7 +13998,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 266.7 0)
+			(at 217.17 267.97 0)
 			(effects
 				(font
 					(face "IBM Plex Sans")
@@ -13648,7 +14008,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 266.7 0)
+			(at 217.17 267.97 0)
 			(effects
 				(font
 					(face "IBM Plex Sans")
@@ -13736,6 +14096,78 @@
 			(project "SensorBoard"
 				(path "/56f2708f-e6aa-4b97-8a34-e15d8ff6695d"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c1c5733-a922-4c3c-8031-2fbd95d8d96d")
+		(property "Reference" "#PWR048"
+			(at 36.83 265.43 0)
+			(effects
+				(font
+					(face "IBM Plex Sans")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 264.16 0)
+			(effects
+				(font
+					(face "IBM Plex Sans")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 259.08 0)
+			(effects
+				(font
+					(face "IBM Plex Sans")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 259.08 0)
+			(effects
+				(font
+					(face "IBM Plex Sans")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 259.08 0)
+			(effects
+				(font
+					(face "IBM Plex Sans")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65a1e939-9be9-4fcd-9279-021873851a08")
+		)
+		(instances
+			(project "SensorBoard"
+				(path "/56f2708f-e6aa-4b97-8a34-e15d8ff6695d"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -13961,6 +14393,74 @@
 			(project ""
 				(path "/56f2708f-e6aa-4b97-8a34-e15d8ff6695d"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 36.83 252.73 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5293d728-f876-4504-8f01-f4e0d17204ce")
+		(property "Reference" "M1"
+			(at 39.37 250.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M1"
+			(at 39.37 252.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 36.83 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 36.83 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c595cf0c-1e5e-4821-b9f3-33aaab4f8e3e")
+		)
+		(instances
+			(project ""
+				(path "/56f2708f-e6aa-4b97-8a34-e15d8ff6695d"
+					(reference "M1")
 					(unit 1)
 				)
 			)
@@ -14999,7 +15499,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 265.43 0)
+		(at 99.06 262.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15008,7 +15508,7 @@
 		(fields_autoplaced yes)
 		(uuid "64a91d9e-9660-49a8-9bc1-7e7b6003b929")
 		(property "Reference" "#PWR045"
-			(at 50.8 271.78 0)
+			(at 99.06 269.24 0)
 			(effects
 				(font
 					(face "IBM Plex Sans")
@@ -15018,7 +15518,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 270.51 0)
+			(at 99.06 267.97 0)
 			(effects
 				(font
 					(face "IBM Plex Sans")
@@ -15028,7 +15528,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 265.43 0)
+			(at 99.06 262.89 0)
 			(effects
 				(font
 					(face "IBM Plex Sans")
@@ -15038,7 +15538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 265.43 0)
+			(at 99.06 262.89 0)
 			(effects
 				(font
 					(face "IBM Plex Sans")
@@ -15048,7 +15548,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 265.43 0)
+			(at 99.06 262.89 0)
 			(effects
 				(font
 					(face "IBM Plex Sans")
@@ -15753,6 +16253,74 @@
 			(project "SensorBoard"
 				(path "/56f2708f-e6aa-4b97-8a34-e15d8ff6695d"
 					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 54.61 252.73 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f203c63-b728-453a-9522-684eef454aed")
+		(property "Reference" "M3"
+			(at 57.15 250.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 57.15 252.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 54.61 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 54.61 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e39fb0d1-c3eb-4d9d-bd15-2c453a342c49")
+		)
+		(instances
+			(project "SensorBoard"
+				(path "/56f2708f-e6aa-4b97-8a34-e15d8ff6695d"
+					(reference "M3")
 					(unit 1)
 				)
 			)
@@ -17872,7 +18440,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.73 265.43 0)
+		(at 160.02 265.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17881,7 +18449,7 @@
 		(fields_autoplaced yes)
 		(uuid "be127d22-7dff-4142-b94a-3403a2856b89")
 		(property "Reference" "#PWR043"
-			(at 125.73 271.78 0)
+			(at 160.02 271.78 0)
 			(effects
 				(font
 					(face "IBM Plex Sans")
@@ -17891,7 +18459,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 270.51 0)
+			(at 160.02 270.51 0)
 			(effects
 				(font
 					(face "IBM Plex Sans")
@@ -17901,7 +18469,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 265.43 0)
+			(at 160.02 265.43 0)
 			(effects
 				(font
 					(face "IBM Plex Sans")
@@ -17911,7 +18479,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 265.43 0)
+			(at 160.02 265.43 0)
 			(effects
 				(font
 					(face "IBM Plex Sans")
@@ -17921,7 +18489,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 265.43 0)
+			(at 160.02 265.43 0)
 			(effects
 				(font
 					(face "IBM Plex Sans")
@@ -18303,7 +18871,7 @@
 	)
 	(symbol
 		(lib_id "SensorBoard:Conn_DAC")
-		(at 204.47 257.81 0)
+		(at 220.98 259.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18311,7 +18879,7 @@
 		(dnp no)
 		(uuid "cabe193f-0e83-4d99-8c07-4d26ee2111b8")
 		(property "Reference" "J4"
-			(at 204.47 250.19 0)
+			(at 220.98 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18319,7 +18887,7 @@
 			)
 		)
 		(property "Value" "DAC Connector"
-			(at 212.09 265.684 0)
+			(at 228.6 266.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18327,7 +18895,7 @@
 			)
 		)
 		(property "Footprint" "SensorBoard:SM02B-SR"
-			(at 201.93 255.27 0)
+			(at 218.44 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18336,7 +18904,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 255.27 0)
+			(at 218.44 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18345,7 +18913,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.994 272.288 0)
+			(at 222.504 273.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
