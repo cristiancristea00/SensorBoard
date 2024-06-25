@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -2.4 0)
+		(at 0 -3.15 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "78c311b7-8c34-45af-b1c0-e4ddd9092fbc")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "BMI323"
-		(at 0 2.35 0)
+		(at 0 2.65 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "cec1fecc-9b86-4bf1-b18e-33069171ac84")
@@ -68,18 +68,18 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.75 -1.5)
-		(end -1.5 -1.5)
+		(start -1.85 -1)
+		(end -1.85 -1.6)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "05198776-789c-49bb-9a1e-dfba712b58b4")
+		(uuid "367fcd77-c639-4fcb-b372-9d32783447c8")
 	)
 	(fp_line
-		(start -1.75 1.5)
-		(end -1.75 -1.5)
+		(start -1.85 1.55)
+		(end -1.85 0.95)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -88,8 +88,28 @@
 		(uuid "d00ed47e-8728-4bc0-8c63-f6764e4763e6")
 	)
 	(fp_line
-		(start 1.75 -1.5)
-		(end -0.825 -1.5)
+		(start -1.15 -1.6)
+		(end -1.85 -1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b7becfd8-c698-4f2a-a205-5009c27d7fdb")
+	)
+	(fp_line
+		(start -1.15 1.55)
+		(end -1.85 1.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3ba23c8a-c7c9-41f5-9485-2017b2f3cc8e")
+	)
+	(fp_line
+		(start 1.85 -1.6)
+		(end 1.15 -1.6)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -98,18 +118,18 @@
 		(uuid "22954268-117a-46c3-b750-ab309bc95832")
 	)
 	(fp_line
-		(start 1.75 -1.5)
-		(end 1.75 1.5)
+		(start 1.85 -1)
+		(end 1.85 -1.6)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "6ab1173e-1826-4abc-9314-f238d7e5a0f8")
+		(uuid "ddb8840b-6a22-4082-abcc-c97d03ea8f13")
 	)
 	(fp_line
-		(start 1.75 1.5)
-		(end -1.75 1.5)
+		(start 1.85 1.55)
+		(end 1.15 1.55)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -117,19 +137,69 @@
 		(layer "F.SilkS")
 		(uuid "728c4214-ba78-4c75-adce-9f45f279cd0d")
 	)
-	(fp_circle
-		(center -1.1625 -1.5)
-		(end -1.0125 -1.5)
+	(fp_line
+		(start 1.85 1.55)
+		(end 1.85 0.95)
 		(stroke
 			(width 0.1)
-			(type solid)
+			(type default)
 		)
-		(fill solid)
 		(layer "F.SilkS")
-		(uuid "45c79494-3573-4e5f-ace8-e2edd80d34e9")
+		(uuid "40c54174-f517-4c70-ac3b-9b0636fc5853")
+	)
+	(fp_arc
+		(start -1.843618 -0.999128)
+		(mid -1.610083 -1.430323)
+		(end -1.15 -1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9db5715d-7007-4296-8b16-be3189650b8d")
+	)
+	(fp_line
+		(start -1.95 -1.7)
+		(end -1.95 1.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b5d1a6eb-5b8d-4614-aac1-a41a851885aa")
+	)
+	(fp_line
+		(start -1.95 -1.7)
+		(end 1.95 -1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d8fb5404-11b0-4416-b089-66782b4d5039")
+	)
+	(fp_line
+		(start -1.95 1.65)
+		(end 1.95 1.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "eeb24dde-6acc-489b-8920-e95ae1585d84")
+	)
+	(fp_line
+		(start 1.95 -1.7)
+		(end 1.95 1.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3395ad8e-5e79-4783-a870-9cb4c196b796")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 3.85 0)
+		(at 0 4.15 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "5eb95c4d-fb1b-494a-88c8-aa4b01e8b355")
@@ -237,6 +307,19 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "43c0faa6-94f1-402d-9398-3ee8124706c6")
+	)
+	(group ""
+		(uuid "0ba962cf-4cc3-43c7-a2f5-8d94f4c62533")
+		(members "0f8383e4-af48-44eb-a25e-b0a098ea59e5" "1e2372ac-db76-41cf-b3d4-9cedb45532f8"
+			"1f1fcbde-f7d6-4e91-9ead-5edb7774edd5" "239c03ec-e080-42b4-be97-81ec5729eff7"
+			"2adf41bb-fb87-4582-a9b2-b63be7cfcc12" "43c0faa6-94f1-402d-9398-3ee8124706c6"
+			"5e1573f6-efb1-4cab-8341-5f7ed7b934b6" "68258579-14e9-4292-bbab-e6bd30311076"
+			"6cb4f83b-b241-48c6-a3b3-4a38307f492d" "6fdcc72c-1bb1-41b7-9dbd-c6fef15608b9"
+			"8cdfab5d-fefc-49a4-8915-d3ea2cd6c87f" "aed2cd28-9927-47d3-9712-b1c1cce54f82"
+			"b9e6ff6f-1c5b-4e89-8507-44a49b49fb60" "ba31cb24-1a84-4820-8fff-ac6b326f769e"
+			"c5d59c83-f717-4e9d-af6c-3ec85cd1b9a1" "c6546aff-2cfa-48c6-80e9-741872031f85"
+			"dc22fa13-1482-46a6-a344-75286d97e572"
+		)
 	)
 	(model "${KIPRJMOD}/Models/BMI323.step"
 		(offset
