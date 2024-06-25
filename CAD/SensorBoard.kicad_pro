@@ -667,7 +667,7 @@
     "netclass_patterns": [
       {
         "netclass": "USB",
-        "pattern": "/USB*"
+        "pattern": "*USB*"
       },
       {
         "netclass": "GND",
@@ -678,56 +678,32 @@
         "pattern": "+*"
       },
       {
-        "netclass": "USB",
-        "pattern": "USB*"
-      },
-      {
         "netclass": "SPI",
-        "pattern": "SPI*"
+        "pattern": "*SPI*"
       },
       {
         "netclass": "I2C",
-        "pattern": "I2C*"
+        "pattern": "*I2C*"
       },
       {
         "netclass": "LSE",
-        "pattern": "LSE*"
+        "pattern": "*LSE*"
       },
       {
         "netclass": "HSE",
-        "pattern": "HSE*"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "/SPI*"
+        "pattern": "*HSE*"
       },
       {
         "netclass": "PWM",
-        "pattern": "LED*"
+        "pattern": "*LED*"
       },
       {
         "netclass": "DEBUG",
-        "pattern": "SWD*"
-      },
-      {
-        "netclass": "DEBUG",
-        "pattern": "/SWD*"
+        "pattern": "*SWD*"
       },
       {
         "netclass": "GPIO",
-        "pattern": "BTN*"
-      },
-      {
-        "netclass": "GPIO",
-        "pattern": "/BTN*"
-      },
-      {
-        "netclass": "PWM",
-        "pattern": "/LED*"
-      },
-      {
-        "netclass": "HSE",
-        "pattern": "/HSE*"
+        "pattern": "*BTN*"
       }
     ]
   },
