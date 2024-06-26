@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -3.5 0)
+		(at 0 -4 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "3ead450b-b411-4232-aca6-e9cadde5bd02")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "SM02B-SR"
-		(at 0 3.7 0)
+		(at 0 4.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "cb81ac6a-45ca-47d7-a1ca-3c43fb9a2134")
@@ -117,8 +117,48 @@
 		(layer "F.SilkS")
 		(uuid "bdbfab1d-b3a5-4b06-ae17-a6f1425f7f0c")
 	)
+	(fp_line
+		(start -2.2 -3)
+		(end -2.2 3.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "8da0efe2-1008-4888-bab3-99296cc9ff88")
+	)
+	(fp_line
+		(start -2.2 3.2)
+		(end 2.2 3.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9892b5b2-6df9-440d-a216-3ae296296c52")
+	)
+	(fp_line
+		(start 2.2 -3)
+		(end -2.2 -3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f6a7a03e-d012-4162-8ebd-9ce2ce56e48c")
+	)
+	(fp_line
+		(start 2.2 3.2)
+		(end 2.2 -3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "26695903-39e3-4c72-8859-ecd7ca454000")
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0 5.2 0)
+		(at 0 6 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "e61363bb-efb6-4bc6-a8fc-3dce821fa4a4")
@@ -163,7 +203,7 @@
 	)
 	(model "${KIPRJMOD}/Models/SM02B-SR.step"
 		(offset
-			(xyz 0 1.5 0)
+			(xyz 0 1.5 -0.25)
 		)
 		(scale
 			(xyz 1 1 1)

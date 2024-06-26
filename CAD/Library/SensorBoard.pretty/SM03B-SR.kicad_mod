@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -3.6 0)
+		(at 0 -4 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "91ce286f-ae62-4218-b1b8-4ae4dfe7e014")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "SM03B-SR"
-		(at 0 3.8 0)
+		(at 0 4.3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "c6edb66d-ca74-4d67-ba9c-496a9327b7b6")
@@ -127,8 +127,48 @@
 		(layer "F.SilkS")
 		(uuid "27ffe47f-fbb2-4a1a-a3c5-25670cc473cc")
 	)
+	(fp_line
+		(start -2.6 -3)
+		(end -2.6 3.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ce18fee7-751d-4088-8291-2f5575e84ea3")
+	)
+	(fp_line
+		(start -2.6 3.2)
+		(end 2.6 3.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7073b403-74fc-4bb4-aa10-d8ee93bffdda")
+	)
+	(fp_line
+		(start 2.6 -3)
+		(end -2.6 -3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "91e50773-7c52-414f-84fb-3d3af5ff7794")
+	)
+	(fp_line
+		(start 2.6 3.2)
+		(end 2.6 -3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5fd84399-1218-4e85-b02c-a2fda1569443")
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0 5.3 0)
+		(at 0 5.8 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "3f3fa90b-7461-4e4d-9336-cc041279d236")

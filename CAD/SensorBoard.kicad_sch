@@ -9522,7 +9522,7 @@
 	)
 	(rectangle
 		(start 176.53 90.17)
-		(end 247.65 144.78)
+		(end 247.65 149.86)
 		(stroke
 			(width 1)
 			(type default)
@@ -9579,6 +9579,16 @@
 			(type none)
 		)
 		(uuid f601de5c-216e-432c-9b20-53956191befd)
+	)
+	(text "The ~{RESET} pin of the MCU has an internal pull-up"
+		(exclude_from_sim yes)
+		(at 212.09 144.78 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+		)
+		(uuid "11651505-bfd6-460f-b23a-795a2d855a65")
 	)
 	(text "User buttons"
 		(exclude_from_sim no)
@@ -13062,7 +13072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
+		(property "Footprint" "SensorBoard:PTS636-SM25F-SMTR-LFS"
 			(at 274.32 130.81 0)
 			(effects
 				(font
@@ -14153,7 +14163,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 379.73 143.51 0)
 			(effects
 				(font
@@ -14376,7 +14386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 379.73 128.27 0)
 			(effects
 				(font
@@ -15960,7 +15970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
+		(property "Footprint" "SensorBoard:PTS636-SM25F-SMTR-LFS"
 			(at 274.32 147.32 0)
 			(effects
 				(font
@@ -16101,7 +16111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
+		(property "Footprint" "SensorBoard:PTS636-SM25F-SMTR-LFS"
 			(at 195.58 123.19 0)
 			(effects
 				(font
@@ -16512,7 +16522,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 379.73 151.13 0)
 			(effects
 				(font
@@ -16651,7 +16661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
+		(property "Footprint" "SensorBoard:PTS636-SM25F-SMTR-LFS"
 			(at 274.32 114.3 0)
 			(effects
 				(font
@@ -17142,7 +17152,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 379.73 135.89 0)
 			(effects
 				(font
@@ -17669,7 +17679,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 224.79 62.23 0)
 			(effects
 				(font
@@ -17738,7 +17748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
+		(property "Footprint" "SensorBoard:PTS636-SM25F-SMTR-LFS"
 			(at 274.32 97.79 0)
 			(effects
 				(font
@@ -18629,7 +18639,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Avago_PLCC6_3x2.8mm"
+		(property "Footprint" "SensorBoard:ASMT-YTB7-0AA02"
 			(at 374.65 117.348 0)
 			(effects
 				(font
@@ -19301,7 +19311,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 209.55 62.23 0)
 			(effects
 				(font
@@ -19652,7 +19662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
+		(property "Footprint" "SensorBoard:LQFP-48_7x7mm_P0.5mm"
 			(at 67.31 212.09 0)
 			(effects
 				(font
@@ -19930,7 +19940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
+		(property "Footprint" "SensorBoard:PTS636-SM25F-SMTR-LFS"
 			(at 189.23 102.87 0)
 			(effects
 				(font
