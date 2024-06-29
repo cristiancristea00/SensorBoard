@@ -5915,6 +5915,12 @@
 		(uuid "b79b2947-fedc-4acc-8156-a0e96a5beffe")
 	)
 	(junction
+		(at 54.61 256.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bac20275-3e10-4d48-a633-4054ac14482b")
+	)
+	(junction
 		(at 133.35 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8296,6 +8302,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 255.27) (xy 54.61 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9deea4f-7e41-4668-b2b8-a8eb2cd8b44c")
+	)
+	(wire
+		(pts
 			(xy 360.68 60.96) (xy 360.68 68.58)
 		)
 		(stroke
@@ -8353,6 +8369,16 @@
 			(type default)
 		)
 		(uuid "acafe7cc-5c56-4e19-8c1f-7d7d3805dd1d")
+	)
+	(wire
+		(pts
+			(xy 54.61 256.54) (xy 45.72 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acf2dfdb-6431-4c7a-a987-66e11bffd4ef")
 	)
 	(wire
 		(pts
@@ -9276,7 +9302,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 256.54) (xy 45.72 256.54)
+			(xy 63.5 256.54) (xy 54.61 256.54)
 		)
 		(stroke
 			(width 0)
@@ -10186,7 +10212,7 @@
 			)
 		)
 	)
-	(global_label "LED_1"
+	(global_label "LED_4"
 		(shape output)
 		(at 100.33 140.97 0)
 		(fields_autoplaced yes)
@@ -10802,7 +10828,7 @@
 			)
 		)
 	)
-	(global_label "LED_2"
+	(global_label "LED_3"
 		(shape output)
 		(at 100.33 143.51 0)
 		(fields_autoplaced yes)
@@ -10956,7 +10982,7 @@
 			)
 		)
 	)
-	(global_label "LED_R"
+	(global_label "LED_B"
 		(shape output)
 		(at 100.33 161.29 0)
 		(fields_autoplaced yes)
@@ -11264,7 +11290,7 @@
 			)
 		)
 	)
-	(global_label "LED_B"
+	(global_label "LED_R"
 		(shape output)
 		(at 100.33 166.37 0)
 		(fields_autoplaced yes)
@@ -11374,7 +11400,7 @@
 			)
 		)
 	)
-	(global_label "LED_3"
+	(global_label "LED_2"
 		(shape output)
 		(at 100.33 146.05 0)
 		(fields_autoplaced yes)
@@ -11396,7 +11422,7 @@
 			)
 		)
 	)
-	(global_label "LED_4"
+	(global_label "LED_1"
 		(shape output)
 		(at 100.33 148.59 0)
 		(fields_autoplaced yes)
