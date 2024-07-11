@@ -12848,7 +12848,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "SensorBoard:SOT-23"
 			(at 300.736 237.236 0)
 			(effects
 				(font

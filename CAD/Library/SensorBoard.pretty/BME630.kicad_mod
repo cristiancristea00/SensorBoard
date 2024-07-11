@@ -67,100 +67,20 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -1.9 -1.9)
-		(end -1.9 -1.2)
+	(fp_circle
+		(center 1.779289 -1.2)
+		(end 1.85 -1.2)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
+		(fill solid)
 		(layer "F.SilkS")
-		(uuid "2f291440-85bf-4846-8747-3e49c10c29b5")
+		(uuid "ebea907c-6c2d-4039-be44-012224196d97")
 	)
 	(fp_line
-		(start -1.9 1.2)
-		(end -1.9 1.9)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "a71dfe57-8a1b-48b8-ad54-3837b6663be2")
-	)
-	(fp_line
-		(start -1.2 -1.9)
-		(end -1.9 -1.9)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "4404ed44-211a-4017-9d5f-27a9b97f2956")
-	)
-	(fp_line
-		(start -1.2 1.9)
-		(end -1.9 1.9)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "d2a001e9-3344-48eb-9952-81c811521587")
-	)
-	(fp_line
-		(start 1.9 -1.9)
-		(end 1.2 -1.9)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "dae4addb-3fb4-4299-88bd-53c0297c68dc")
-	)
-	(fp_line
-		(start 1.9 -1.9)
-		(end 1.9 -1.2)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "1052e597-8723-43ad-9bbc-2344d335f9c9")
-	)
-	(fp_line
-		(start 1.9 1.2)
-		(end 1.9 1.9)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "58a8a318-0499-446e-b780-56af529012ad")
-	)
-	(fp_line
-		(start 1.9 1.9)
-		(end 1.2 1.9)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "ebad58a6-30f6-46ab-943c-1d93b3b24765")
-	)
-	(fp_arc
-		(start 1.2 -1.9)
-		(mid 1.696459 -1.696459)
-		(end 1.9 -1.2)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "c2cd0ad1-ad3e-4463-aeaf-4afa913998da")
-	)
-	(fp_line
-		(start -2 -2)
-		(end -2 2)
+		(start -1.55 -1.55)
+		(end -1.55 1.55)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -169,8 +89,8 @@
 		(uuid "a1faf0fd-7547-438c-8ac3-65ccac3ac95f")
 	)
 	(fp_line
-		(start -2 2)
-		(end 2 2)
+		(start -1.55 1.55)
+		(end 1.55 1.55)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -179,8 +99,8 @@
 		(uuid "68b0ef3e-8545-489d-aab5-350dcfc031ad")
 	)
 	(fp_line
-		(start 2 -2)
-		(end -2 -2)
+		(start 1.55 -1.55)
+		(end -1.55 -1.55)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -189,8 +109,8 @@
 		(uuid "7faa9b03-48b3-40fe-a77d-a8b4fb6ce5c3")
 	)
 	(fp_line
-		(start 2 -2)
-		(end 2 2)
+		(start 1.55 -1.55)
+		(end 1.55 1.55)
 		(stroke
 			(width 0.05)
 			(type default)
